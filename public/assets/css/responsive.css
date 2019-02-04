@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+.header {background: #fff;}
+.header .navbar-default .navbar-nav li a {margin: 8px 0;text-align: center;color: #000;font-size: 18px;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: #2a2a2a;}
+.Newsletter_form .form-inline .form-group {	width: auto;}
+.footer ul.social_icon {margin: 25px 0 0 0;}
+.footer_text.footlinks {	margin-bottom: 30px;}
+.header {	position: static;}
+.navbar-brand {	width: 45%;	padding: 0px 15px;	height: auto;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #000;}
+.navbar-default .navbar-toggle {border-color: #000;}
+.navbar-toggle {margin-top: 30px;}
+.header .navbar-default .navbar-nav li a:hover {color: red;}
+.header .navbar-default .navbar-nav li:last-child a{color: #000;}
+.header .navbar-default .navbar-nav li:last-child a:hover {color: red;}
+.Search {float: left;position: static;width: 100%;padding: 30px 0;}
+.Search .select_serch ul li {width: 100%;	margin-bottom: 20px;}
+.Search .select_serch ul li select {border-left: 1px solid #e6e6e6;}
+.Search .select_serch ul li:nth-last-child(2) select {
+	border-right: 1px solid #e6e6e6;}
+.banner_text h1 {font-size: 22px;margin: 0 0 15px;}
+.banner_text p {font-size: 12px;margin: 0 0 0px;}
+.banner .carousel-caption {top: 10%;}
+.banner .carousel-control {width: 8%;	top: 45%;}
+.Featured_inner {margin-bottom: 20px;}
+.we_offer_text {margin-top: 0;}
+.we_offer {	padding: 60px 0;}
+.Get_a_better h1 {	font-size: 26px;line-height: 36px;}
+.Get_a_better p {	font-size: 15px;line-height: 30px;}
+.row-md-height {	display: block;}
+.col-md-height {	display: block;}
+.crunncy {	font-size: 48px;	text-align: center;}
+.pd_lft_z {	padding-left: 0;padding-right: 0;}
+.people_slider h1 {	font-size: 26px;margin: 30px 0 0;text-align: center;}
+.people_slider .carousel-inner {padding: 15px 0 35px;}
+.Featured {	padding: 50px 0;}
+.Our_Skills {	margin: 15px 0 60px;}
+.sld_clint .span3 {	margin-right: 6px;	width: 31.8%;}
+.Vendors ul li {margin: 0 0 20px;width: 100%;}
+.clint_logo {padding: 30px 0;}
+.apply_filter {	margin-bottom: 30px;}
+.Rent_page {padding: 8px 0 60px;}
+.pagination {	margin: 5px 0 0;}
+.login_form {margin: 35px auto;}
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+
+.Newsletter_form .form-inline .form-group {	width: auto;}
+}
+
+@media all and (min-width: 1024px) and (max-width: 1214px) {
+.Search .select_serch ul li {width: 20.9%;}
+.Search {bottom: 10%;}
+.Newsletter_form .form-inline .form-group {	width: 80%;}
+}
